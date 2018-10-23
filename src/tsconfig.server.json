@@ -1,0 +1,17 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "commonjs",
+    "outDir": "../out-tsc",
+    "baseUrl": "./",
+    "types": [
+      "node"
+    ]
+  },
+  "exclude": [
+    "app/**",
+    "environments/**",
+    "/*"
+  ]
+}
