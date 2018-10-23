@@ -1,0 +1,28 @@
+:host {
+  display: flex;
+}
+
+.title {
+  position: relative;
+}
+
+.version {
+  position: absolute;
+  top: 0;
+  right: -36px;
+}
+
+.github {
+  position: absolute;
+  right: 0;
+  margin: 10px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
