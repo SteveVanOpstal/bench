@@ -1,0 +1,425 @@
+{
+  "files": [
+    {
+      "fileName": "./files/100_5",
+      "originalSize": 100000,
+      "compressedSize": 95033,
+      "requestedRate": 5,
+      "rate": 5
+    },
+    {
+      "fileName": "./files/100_10",
+      "originalSize": 100000,
+      "compressedSize": 90019,
+      "requestedRate": 10,
+      "rate": 10
+    },
+    {
+      "fileName": "./files/100_15",
+      "originalSize": 100000,
+      "compressedSize": 84997,
+      "requestedRate": 15,
+      "rate": 15
+    },
+    {
+      "fileName": "./files/100_20",
+      "originalSize": 100000,
+      "compressedSize": 80005,
+      "requestedRate": 20,
+      "rate": 20
+    },
+    {
+      "fileName": "./files/100_30",
+      "originalSize": 100000,
+      "compressedSize": 70025,
+      "requestedRate": 30,
+      "rate": 30
+    },
+    {
+      "fileName": "./files/100_40",
+      "originalSize": 100000,
+      "compressedSize": 59757,
+      "requestedRate": 40,
+      "rate": 40.2
+    },
+    {
+      "fileName": "./files/100_50",
+      "originalSize": 100000,
+      "compressedSize": 49654,
+      "requestedRate": 50,
+      "rate": 50.3
+    },
+    {
+      "fileName": "./files/100_60",
+      "originalSize": 100000,
+      "compressedSize": 40783,
+      "requestedRate": 60,
+      "rate": 59.2
+    },
+    {
+      "fileName": "./files/100_70",
+      "originalSize": 100000,
+      "compressedSize": 29493,
+      "requestedRate": 70,
+      "rate": 70.5
+    },
+    {
+      "fileName": "./files/100_80",
+      "originalSize": 100000,
+      "compressedSize": 23707,
+      "requestedRate": 80,
+      "rate": 76.3
+    },
+    {
+      "fileName": "./files/50_5",
+      "originalSize": 50000,
+      "compressedSize": 47489,
+      "requestedRate": 5,
+      "rate": 5
+    },
+    {
+      "fileName": "./files/50_10",
+      "originalSize": 50000,
+      "compressedSize": 45025,
+      "requestedRate": 10,
+      "rate": 10
+    },
+    {
+      "fileName": "./files/50_15",
+      "originalSize": 50000,
+      "compressedSize": 42515,
+      "requestedRate": 15,
+      "rate": 15
+    },
+    {
+      "fileName": "./files/50_20",
+      "originalSize": 50000,
+      "compressedSize": 39979,
+      "requestedRate": 20,
+      "rate": 20
+    },
+    {
+      "fileName": "./files/50_30",
+      "originalSize": 50000,
+      "compressedSize": 34995,
+      "requestedRate": 30,
+      "rate": 30
+    },
+    {
+      "fileName": "./files/50_40",
+      "originalSize": 50000,
+      "compressedSize": 29946,
+      "requestedRate": 40,
+      "rate": 40.1
+    },
+    {
+      "fileName": "./files/50_50",
+      "originalSize": 50000,
+      "compressedSize": 25447,
+      "requestedRate": 50,
+      "rate": 49.1
+    },
+    {
+      "fileName": "./files/50_60",
+      "originalSize": 50000,
+      "compressedSize": 20789,
+      "requestedRate": 60,
+      "rate": 58.4
+    },
+    {
+      "fileName": "./files/50_70",
+      "originalSize": 50000,
+      "compressedSize": 14862,
+      "requestedRate": 70,
+      "rate": 70.3
+    },
+    {
+      "fileName": "./files/50_80",
+      "originalSize": 50000,
+      "compressedSize": 11947,
+      "requestedRate": 80,
+      "rate": 76.1
+    },
+    {
+      "fileName": "./files/25_5",
+      "originalSize": 25000,
+      "compressedSize": 23760,
+      "requestedRate": 5,
+      "rate": 5
+    },
+    {
+      "fileName": "./files/25_10",
+      "originalSize": 25000,
+      "compressedSize": 22497,
+      "requestedRate": 10,
+      "rate": 10
+    },
+    {
+      "fileName": "./files/25_15",
+      "originalSize": 25000,
+      "compressedSize": 21243,
+      "requestedRate": 15,
+      "rate": 15
+    },
+    {
+      "fileName": "./files/25_20",
+      "originalSize": 25000,
+      "compressedSize": 19995,
+      "requestedRate": 20,
+      "rate": 20
+    },
+    {
+      "fileName": "./files/25_30",
+      "originalSize": 25000,
+      "compressedSize": 17473,
+      "requestedRate": 30,
+      "rate": 30.1
+    },
+    {
+      "fileName": "./files/25_40",
+      "originalSize": 25000,
+      "compressedSize": 14976,
+      "requestedRate": 40,
+      "rate": 40.1
+    },
+    {
+      "fileName": "./files/25_50",
+      "originalSize": 25000,
+      "compressedSize": 12432,
+      "requestedRate": 50,
+      "rate": 50.3
+    },
+    {
+      "fileName": "./files/25_60",
+      "originalSize": 25000,
+      "compressedSize": 9700,
+      "requestedRate": 60,
+      "rate": 61.2
+    },
+    {
+      "fileName": "./files/25_70",
+      "originalSize": 25000,
+      "compressedSize": 7533,
+      "requestedRate": 70,
+      "rate": 69.9
+    },
+    {
+      "fileName": "./files/25_80",
+      "originalSize": 25000,
+      "compressedSize": 4052,
+      "requestedRate": 80,
+      "rate": 83.8
+    },
+    {
+      "fileName": "./files/10_5",
+      "originalSize": 10000,
+      "compressedSize": 9502,
+      "requestedRate": 5,
+      "rate": 5
+    },
+    {
+      "fileName": "./files/10_10",
+      "originalSize": 10000,
+      "compressedSize": 9004,
+      "requestedRate": 10,
+      "rate": 10
+    },
+    {
+      "fileName": "./files/10_15",
+      "originalSize": 10000,
+      "compressedSize": 8505,
+      "requestedRate": 15,
+      "rate": 15
+    },
+    {
+      "fileName": "./files/10_20",
+      "originalSize": 10000,
+      "compressedSize": 8004,
+      "requestedRate": 20,
+      "rate": 20
+    },
+    {
+      "fileName": "./files/10_30",
+      "originalSize": 10000,
+      "compressedSize": 6991,
+      "requestedRate": 30,
+      "rate": 30.1
+    },
+    {
+      "fileName": "./files/10_40",
+      "originalSize": 10000,
+      "compressedSize": 5992,
+      "requestedRate": 40,
+      "rate": 40.1
+    },
+    {
+      "fileName": "./files/10_50",
+      "originalSize": 10000,
+      "compressedSize": 5040,
+      "requestedRate": 50,
+      "rate": 49.6
+    },
+    {
+      "fileName": "./files/10_60",
+      "originalSize": 10000,
+      "compressedSize": 3998,
+      "requestedRate": 60,
+      "rate": 60
+    },
+    {
+      "fileName": "./files/10_70",
+      "originalSize": 10000,
+      "compressedSize": 3114,
+      "requestedRate": 70,
+      "rate": 68.9
+    },
+    {
+      "fileName": "./files/10_80",
+      "originalSize": 10000,
+      "compressedSize": 1681,
+      "requestedRate": 80,
+      "rate": 83.2
+    },
+    {
+      "fileName": "./files/5_5",
+      "originalSize": 5000,
+      "compressedSize": 4751,
+      "requestedRate": 5,
+      "rate": 5
+    },
+    {
+      "fileName": "./files/5_10",
+      "originalSize": 5000,
+      "compressedSize": 4498,
+      "requestedRate": 10,
+      "rate": 10
+    },
+    {
+      "fileName": "./files/5_15",
+      "originalSize": 5000,
+      "compressedSize": 4249,
+      "requestedRate": 15,
+      "rate": 15
+    },
+    {
+      "fileName": "./files/5_20",
+      "originalSize": 5000,
+      "compressedSize": 3998,
+      "requestedRate": 20,
+      "rate": 20
+    },
+    {
+      "fileName": "./files/5_30",
+      "originalSize": 5000,
+      "compressedSize": 3507,
+      "requestedRate": 30,
+      "rate": 29.9
+    },
+    {
+      "fileName": "./files/5_40",
+      "originalSize": 5000,
+      "compressedSize": 3010,
+      "requestedRate": 40,
+      "rate": 39.8
+    },
+    {
+      "fileName": "./files/5_50",
+      "originalSize": 5000,
+      "compressedSize": 2538,
+      "requestedRate": 50,
+      "rate": 49.2
+    },
+    {
+      "fileName": "./files/5_60",
+      "originalSize": 5000,
+      "compressedSize": 2041,
+      "requestedRate": 60,
+      "rate": 59.2
+    },
+    {
+      "fileName": "./files/5_70",
+      "originalSize": 5000,
+      "compressedSize": 1600,
+      "requestedRate": 70,
+      "rate": 68
+    },
+    {
+      "fileName": "./files/5_80",
+      "originalSize": 5000,
+      "compressedSize": 873,
+      "requestedRate": 80,
+      "rate": 82.5
+    },
+    {
+      "fileName": "./files/2.5_5",
+      "originalSize": 2500,
+      "compressedSize": 2376,
+      "requestedRate": 5,
+      "rate": 5
+    },
+    {
+      "fileName": "./files/2.5_10",
+      "originalSize": 2500,
+      "compressedSize": 2248,
+      "requestedRate": 10,
+      "rate": 10.1
+    },
+    {
+      "fileName": "./files/2.5_15",
+      "originalSize": 2500,
+      "compressedSize": 2126,
+      "requestedRate": 15,
+      "rate": 15
+    },
+    {
+      "fileName": "./files/2.5_20",
+      "originalSize": 2500,
+      "compressedSize": 1999,
+      "requestedRate": 20,
+      "rate": 20
+    },
+    {
+      "fileName": "./files/2.5_30",
+      "originalSize": 2500,
+      "compressedSize": 1754,
+      "requestedRate": 30,
+      "rate": 29.8
+    },
+    {
+      "fileName": "./files/2.5_40",
+      "originalSize": 2500,
+      "compressedSize": 1495,
+      "requestedRate": 40,
+      "rate": 40.2
+    },
+    {
+      "fileName": "./files/2.5_50",
+      "originalSize": 2500,
+      "compressedSize": 1235,
+      "requestedRate": 50,
+      "rate": 50.6
+    },
+    {
+      "fileName": "./files/2.5_60",
+      "originalSize": 2500,
+      "compressedSize": 1040,
+      "requestedRate": 60,
+      "rate": 58.4
+    },
+    {
+      "fileName": "./files/2.5_70",
+      "originalSize": 2500,
+      "compressedSize": 832,
+      "requestedRate": 70,
+      "rate": 66.7
+    },
+    {
+      "fileName": "./files/2.5_80",
+      "originalSize": 2500,
+      "compressedSize": 467,
+      "requestedRate": 80,
+      "rate": 81.3
+    }
+  ],
+  "size": 1198596
+}

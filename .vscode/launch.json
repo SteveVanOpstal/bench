@@ -7,9 +7,9 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "serve",
-      "program": "${workspaceFolder}\\out-tsc\\server\\server.js",
-      "preLaunchTask": "tsc: build - src\\tsconfig.server.json",
+      "name": "generate",
+      "program": "${workspaceFolder}\\out-tsc\\node\\generate.js",
+      "preLaunchTask": "tsc: build - src\\tsconfig.node.json",
       "outFiles": [
         "${workspaceFolder}/dist/out-tsc/**/*.js"
       ]
@@ -17,9 +17,9 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "serve playground",
-      "program": "${workspaceFolder}\\out-tsc\\server\\playground.js",
-      "preLaunchTask": "tsc: build - src\\tsconfig.server.json",
+      "name": "serve",
+      "program": "${workspaceFolder}\\out-tsc\\node\\server.js",
+      "preLaunchTask": "tsc: build - src\\tsconfig.node.json",
       "outFiles": [
         "${workspaceFolder}/dist/out-tsc/**/*.js"
       ]

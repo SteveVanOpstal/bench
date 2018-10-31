@@ -4,14 +4,13 @@
     "allowJs": true,
     "module": "commonjs",
     "outDir": "../out-tsc",
+    "resolveJsonModule": true,
     "baseUrl": "./",
     "types": [
       "node"
     ]
   },
-  "exclude": [
-    "app/**",
-    "environments/**",
-    "/*"
+  "files": [
+    "node/generate.ts"
   ]
 }
