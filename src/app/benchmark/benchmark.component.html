@@ -1,5 +1,11 @@
-<p class="text">Running this test will download {{ benchmark.size }} MB of data.</p>
+<p class="text">Running this test will download {{ benchmark.size$ | async }} MB of data.</p>
 
-<button class="start-button" (click)="benchmark.run()">Run</button>
+<button class="start-button" (click)="run()">Run</button>
 
 <p class="text">Your data will be added the global results anonymously.</p>
+
+<!-- <div>
+  <bnch-line-chart *ngFor="let size of benchmark.sizes$ | async" [size]="size"></bnch-line-chart>
+</div> -->
+
+<div id="chart"></div>

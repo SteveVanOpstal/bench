@@ -2,12 +2,13 @@ import * as crypto from 'crypto';
 import * as fs from 'fs';
 import {performance, PerformanceObserver} from 'perf_hooks';
 import * as zlib from 'zlib';
-import {Metadata, FileMetadata} from '../models/metadata.model';
+
+import {FileMetadata} from '../models/metadata.model';
 
 import * as config from './config.json';
 
-if (!fs.existsSync('./files')) {
-  fs.mkdirSync('./files');
+if (!fs.existsSync('./src/files')) {
+  fs.mkdirSync('./src/files');
 }
 
 const obs = new PerformanceObserver((items) => {
@@ -17,7 +18,7 @@ const obs = new PerformanceObserver((items) => {
 });
 obs.observe({entryTypes: ['measure']});
 
-interface Gzip {
+class Gzip {
   original: Buffer;
   compressed: Buffer;
   rate: number;
@@ -50,7 +51,7 @@ class Compress {
     return this._uIntToBuffer(uint, byteLength);
   }
 
-  private _random(size: number, poolLength): Buffer {
+  random(size: number, poolLength): Buffer {
     const byteLength = this._byteLength(poolLength);
     let rdm = this._randomBuffer(byteLength, poolLength);
     while (rdm.length < size) {
@@ -60,9 +61,9 @@ class Compress {
     return rdm.slice(0, size);
   }
 
-  public gzip(size: number, poolLength: number): Gzip {
+  gzip(size: number, poolLength: number): Gzip {
     performance.mark('start');
-    const original = this._random(size, poolLength);
+    const original = this.random(size, poolLength);
     performance.mark('random');
     performance.measure('randomise', 'start', 'random');
     performance.mark('random');
@@ -137,7 +138,13 @@ function findBestCompression(
 
 
 function generateFile(size: number, rate: number): FileMetadata {
-  const best = findBestCompression(size, rate);
+  let best = new Gzip();
+  if (rate <= 0) {
+    best.rate = 0;
+    best.compressed = compress.random(size, Math.pow(2, 24));
+  } else {
+    best = findBestCompression(size, rate);
+  }
 
   console.log(`--- ${best.compressed.length} ${best.rate}% ---`);
 
@@ -162,7 +169,7 @@ function generateFiles() {
     }
   }
 
-  fs.writeFileSync('./files/metadata.json', JSON.stringify(metadata));
+  fs.writeFileSync('./src/files/metadata.json', JSON.stringify(metadata));
 }
 
 generateFiles();
