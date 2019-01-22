@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {version} from '../../../package';
+import * as p from '../../../package.json';
 
 @Component({
   selector: 'bnch-header',
@@ -7,5 +7,5 @@ import {version} from '../../../package';
   templateUrl: 'header.component.html'
 })
 export class HeaderComponent {
-  version = version;
+  version = p.version;
 }

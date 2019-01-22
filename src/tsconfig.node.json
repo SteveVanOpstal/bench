@@ -4,7 +4,6 @@
     "allowJs": true,
     "module": "commonjs",
     "outDir": "../out-tsc",
-    "resolveJsonModule": true,
     "baseUrl": "./",
     "types": [
       "node"
